@@ -14,11 +14,12 @@
         <link rel="icon" href="images/satellite.png">
 
         <script src="https://www.w3schools.com/lib/w3data.js"></script>
-
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+		
 
 	</head>
 	<body class="is-preload">
-
+		<bibtex src="papers.bib"></bibtex>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -62,12 +63,12 @@
                                 <h3> PUBLICATIONS </h3>
 								<p>You can access my research papers below. Furthermore, you can view my honours thesis by clicking on the link.</p>
                                 <!-- PUBLIST -->
-
-                                <div w3-include-html="papers.html"></div>
+								<div id="bibtex_display"></div>
+                                <!--<div w3-include-html="papers.html"></div>
 
                                 <script>
                                 w3IncludeHTML();
-                                </script>
+                                </script> -->
 
                                 <!-- ENDPUBLIST -->
                                 <p><a href="docs/ASTR_Honours_Thesis_JonahHansen_u6058440.pdf" class="button icon solid fa-download"> Access my Honours thesis here </a></p>
