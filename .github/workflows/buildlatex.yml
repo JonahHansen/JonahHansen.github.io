@@ -7,8 +7,8 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v3
       - name: Compile LaTeX document
+        working-directory: ./cv_src
         uses: xu-cheng/latex-action@v3
-	working-directory: ./cv_src
         with:
           root_file: main.tex
           
