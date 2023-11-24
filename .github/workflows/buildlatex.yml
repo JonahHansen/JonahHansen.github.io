@@ -10,8 +10,18 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
+          
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
           name: PDF
           path: main.pdf
+          
+      - name: Deploy to gh-pages
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: pdfjs
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "deploy website"
