@@ -33,6 +33,11 @@
 % Uncomment if you would like to specify your own color
  \definecolor{awesome}{HTML}{2B2DB0}
 
+ \hypersetup{
+  colorlinks=true,  
+  urlcolor=awesome,
+  }
+
 % Colors for text
 % Uncomment if you would like to specify your own color
 % \definecolor{darktext}{HTML}{414141}
@@ -41,7 +46,7 @@
 % \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
+\setbool{acvSectionColorHighlight}{false}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -118,6 +123,7 @@ ACT 2611, AUSTRALIA}
 \AtBeginBibliography{\footnotesize}
 \addbibresource{papers.bib}
 
+
 %-------------------------------------------------------------------------------
 \begin{document}
 
@@ -137,10 +143,10 @@ ACT 2611, AUSTRALIA}
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/summary.tex}
-\input{resume/education.tex}
-\input{resume/experience.tex}
-\input{resume/honors.tex}
+\input{cv_src/summary.tex}
+\input{cv_src/education.tex}
+\input{cv_src/employment.tex}
+\input{cv_src/honors.tex}
 \cvsection{Publications}	
 
 % optional: split into different subsections for
@@ -151,8 +157,8 @@ ACT 2611, AUSTRALIA}
 \begin{cvparagraph}
 \printbibliography[heading=none]
 \end{cvparagraph}
-\input{resume/committees.tex}
-\input{resume/presentation.tex}
+\input{cv_src/committees.tex}
+\input{cv_src/presentation.tex}
 %\input{resume/skills.tex}
 
 %\input{resume/extracurricular.tex}
