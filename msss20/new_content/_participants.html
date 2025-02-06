@@ -1,0 +1,263 @@
+<style type="text/css">
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    color: black;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+</style>
+
+<h1>Participants</h1>
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Institution</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Adam Rains</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Alan Chan</td>
+            <td>Macquarie University/University of Waterloo</td>
+        </tr>
+        <tr>
+            <td>Alex Wallace</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Amit Seta</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Aravind Rajendran</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Damon Beveridge</td>
+            <td>University of Western Australia</td>
+        </tr>
+        <tr>
+            <td>David Raithel</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Donghee Nam</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Fiona Panther</td>
+            <td>University of Western Australia</td>
+        </tr>
+        <tr>
+            <td>Fraser Bradfield</td>
+            <td>The University of Adelaide</td>
+        </tr>
+        <tr>
+            <td>Georgie Taylor</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>James Beattie</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Jamie Soon</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Jordan Cosgrove</td>
+            <td>Queensland University of Technology</td>
+        </tr>
+        <tr>
+            <td>Kathryn Grasha/td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Kelly Kong</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Lara Cullinane</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Lyla Jung</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Mackenzie Martin</td>
+            <td>Randwick Girls' High School</td>
+        </tr>
+        <tr>
+            <td>Mallika Sinha</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Manoj Kovalam</td>
+            <td>University of Western Australia</td>
+        </tr>
+        <tr>
+            <td>Marcus Birch</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Matt Roth</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Matthew Alger</td>
+            <td>The Australian National University/Data61</td>
+        </tr>
+        <tr>
+            <td>Miguel Angel González Bolívar</td>
+            <td>Macquarie University</td>
+        </tr>
+        <tr>
+            <td>Neco Kriel</td>
+            <td>Queensland University of Technology</td>
+        </tr>
+        <tr>
+            <td>Patrick Armstrong</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Qianhui Chen</td>
+            <td>The Australian National University/University of Science and Technology of China</td>
+        </tr>
+        <tr>
+            <td>Radhika Ac</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Ryan Bunney</td>
+            <td>International Centre for Radio Astronomy Research</td>
+        </tr>
+        <tr>
+            <td>Ryan Ridden-Harper</td>
+            <td>Space Telescope Science Institute</td>
+        </tr>
+        <tr>
+            <td>Shalmalee Kapse</td>
+            <td>Macquarie University</td>
+        </tr>
+        <tr>
+            <td>Thaila Greinke</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Umang Malik</td>
+            <td>The Australian National University</td>
+        </tr>
+        <tr>
+            <td>Zixian Wang</td>
+            <td>University of Sydney</td>
+        </tr>
+        <tbody>
+    </table>
