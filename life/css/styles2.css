@@ -1,0 +1,347 @@
+/*
+B23A51
+FF8BA1
+FF728D
+2CB243
+72FF8A
+*/
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #777;
+    background-image: url("../new_media/LIFE_slides_planets/Slide1.png");
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #626cff;
+}
+
+body {background-image: url("../new_media/LIFE_slides_planets/Slide1.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-attachment: fixed;
+                        background-size: cover;}
+                .card-header {background-image: url('../new_media/title.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                        min-height: 25rem;max-height:40rem;}
+                .nav-link {color: black;}
+                .nav-link.active {color: black;}
+                @media (max-width: 806px) {.nav-link.active {border-radius: 0.5rem;}
+                        .nav-link:hover {border-radius: 0.5rem;}
+                        #NavTabs {margin-bottom:.1rem;}}
+                .nav-link:hover {color: #6c757d;
+                        border: 1px solid #343a40;
+                        background-color: white;}
+                .footer-links li, .footer-links li a{display: inline-block;
+    color: #6c757d !important;}
+
+header h1 {
+    width: 100%;
+    /*height: 300px;*/
+    /*line-height: 100px;*/
+    text-align: center;
+    color: white;
+    background-size: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Jura', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Jura', sans-serif;
+}
+
+.main-nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #EEE;
+    background: rgba(70, 70, 70, 0.8);
+    color: #fff;
+}
+
+.main-nav ul {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 10px 0;
+    padding-left: 20px;
+}
+
+.main-nav li:first-of-type {
+    padding-left: 0;
+}
+
+.main-nav .antiharassment {
+    display: none;
+}
+
+#main-container {
+    overflow: hidden;
+    position: relative;
+}
+
+#main-container .stars, #main-container .stars-big {
+    height: 300%;
+    background-position-y: 400px;
+}
+
+main {
+    padding: 20px 4% 20px 4%;
+    max-width: 970px;
+    width: 92%;
+    margin: 0 auto;
+    background: rgba(70, 70, 70, 0.3);
+    color: #fff;
+    position: relative;
+}
+
+#banner {
+    text-align: center;
+}
+
+#banner img {
+    max-height: 150px;
+}
+
+p {
+    margin-top: 0;
+}
+
+footer {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 150px;
+    background: rgba(70, 70, 70, 0.8);
+    color: #ffffff;
+    background-size: 100%;
+    background-position-y: top;
+    background-position-x: left;
+}
+
+#footer-content {
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+footer a:link, footer a:visited {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #626cff;
+}
+
+#footer-decoration {
+    float: right;
+    max-height: 150px;
+    max-width: 50%;
+}
+
+.footer-nav {
+    max-width: 50%;
+    text-align: left;
+}
+
+.footer-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    list-style-type: none;
+}
+
+/*
+.participants, .programme {
+    display: none !important;
+}*/
+
+/* programme stuff */
+
+.session {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.session-header {
+    width: 100%;
+    height: 19vw;
+    background-image: url('../media/images/arthur.png');
+    background-size: cover;
+    position: relative;
+}
+
+.session-header[data-session="cosmic"] {
+    background-image: url('../new_media/cosmic.png');
+    background-position-y: 20%;
+}
+
+.session-header[data-session="stellar"] {
+    background-image: url('../new_media/stellar.png');
+    background-position-y: 20%;
+}
+
+.session-header[data-session="galactic"] {
+    background-image: url('../new_media/galactic.png');
+    background-position-y: 20%;
+}
+
+.session-header[data-session="extragalactic"] {
+    background-image: url('../new_media/extragalactic.png');
+    background-position-y: 20%;
+}
+
+.session-header[data-session="instrument"] {
+    background-image: url('../new_media/telescope.png');
+    background-position-y: 20%;
+}
+
+.session-header[data-session="methods"] {
+    background-image: url('../new_media/methods.png');
+    background-position-y: 20%;
+}
+
+
+.session:first-of-type {
+    margin-top: 0;
+}
+
+.session-header > h2 {
+    text-align: left;
+    color: white;
+    font-size: 4vw;
+    margin: 1vw;
+    text-shadow: 0px 0px 4px black;
+}
+
+.session-header > time {
+    display:block;
+    margin-top:1vw;
+    margin-left:1.5vw;
+    color: white;
+    font-size: 2vw;
+    text-shadow: 0px 0px 4px black;
+}
+
+.chair {
+    font-style: italic;
+    display:block;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    text-shadow: 0px 0px 4px black;
+}
+
+.chair:before {
+    content: 'Chair: ';
+}
+/*
+.session-header[data-session="gumball"] > time {
+    left: 10px;
+    right: auto;
+}
+*/
+
+.session-header > time, .session-header > .chair {
+    left: 1vw;
+    right: auto;
+}
+
+.session-header > h2 {
+    text-align: left;
+}
+
+.event > h3 {
+    font-size: 150%;
+    margin: 0;
+}
+
+.event {
+    width: 100%;
+    min-height: 100px;
+    margin: 15px 0;
+}
+
+.presenter {
+    font-size: 125%;
+    font-weight: bold;
+    display: block;
+    float: right;
+    margin-left: 10px;
+}
+
+.institution {
+    font-style: italic;
+    font-size: 125%;
+    float: right;
+    display: block;
+    clear: right;
+    margin-left: 10px;
+}
+
+.presenter, .institution, .event > time {
+    display: block;
+}
+
+.event > h3 {
+    /* default kind is talk */
+    border-bottom: 2px solid darkblue;
+}
+
+.event[data-kind="org"] > h3 {
+    border-bottom: 2px solid #AAA;
+}
+
+.event[data-kind="invited"] > h3 {
+    border-bottom: 2px solid darkred;
+}
+
+#now {
+    z-index: 100;
+}
+/*
+@media (max-width: 768px) {
+    .session-header > h2 {
+        font-size: 10vw;
+    }
+
+    .session-header {
+        height: 14vw;
+    }
+
+    .session-header > time {
+        font-size: 4vw;
+        bottom: 0;
+        right: 0;
+    }
+}*/
+
+/* 2019 */
+
+.logo {
+    max-width: 300%;
+    max-height: 100%;
+}
